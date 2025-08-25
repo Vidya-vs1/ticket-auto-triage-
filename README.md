@@ -12,7 +12,7 @@ This project demonstrates an AI-powered automation system that classifies, assig
 🌐 Webhook Integration → Sends ticket data to a local Flask server
 
 ## 📂 Project Structure
-
+```bash
 ticket-auto-triage/
 │
 ├── streamlit_app.py        # Streamlit frontend (ticket triage + dashboard)
@@ -65,3 +65,4 @@ Data: CSV with Pandas
 2. Create a new branch (feature/my-feature)
 3. Commit your changes
 4. Push and open a Pull Request
+
