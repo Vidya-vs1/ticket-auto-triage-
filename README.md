@@ -3,14 +3,14 @@
 This project demonstrates an AI-powered automation system that classifies, assigns, and prioritizes customer support tickets. It also sends tickets as webhook events to a backend server for further processing.
 
 ## ✨ Features
-
+```bash
 🔍 Automatic Ticket Classification → Bug, Billing, Feature Request, Other
 👥 Team Assignment → Routes tickets to Engineering, Finance, Product, or Support
 ⚡ Priority Detection → High, Medium, Low
 📂 CSV Storage → Saves tickets for history & dashboarding
 📊 Interactive Dashboard → Visualize tickets per category & priority in Streamlit
 🌐 Webhook Integration → Sends ticket data to a local Flask server
-
+```
 ## 📂 Project Structure
 ```bash
 ticket-auto-triage/
@@ -21,8 +21,7 @@ ticket-auto-triage/
 ├── .gitignore              # Ignore cache and CSV
 ├── README.md               # Project documentation
 └── tickets.csv             # Auto-generated (not committed)
----
-...
+```
 ## 1.Install dependencies
 
 python -m venv venv
@@ -66,6 +65,7 @@ Data: CSV with Pandas
 2. Create a new branch (feature/my-feature)
 3. Commit your changes
 4. Push and open a Pull Request
+
 
 
 
