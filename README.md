@@ -21,7 +21,7 @@ ticket-auto-triage/
 ├── .gitignore              # Ignore cache and CSV
 ├── README.md               # Project documentation
 └── tickets.csv             # Auto-generated (not committed)
-
+---
 ## 1.Install dependencies
 
 python -m venv venv
@@ -65,4 +65,5 @@ Data: CSV with Pandas
 2. Create a new branch (feature/my-feature)
 3. Commit your changes
 4. Push and open a Pull Request
+
 
